@@ -1,0 +1,47 @@
+body{
+    background: #19FCF1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 50px;
+    margin: 0;
+  }
+  .q{
+    text-align: center;
+  }
+  .alphabet{
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    user-select: none;
+   user-cursor: pointer;
+  }
+  .letter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+  .a *{
+    border: solid;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+  }
+  .a{
+    display: flex;
+    gap: 20px;
+  }
